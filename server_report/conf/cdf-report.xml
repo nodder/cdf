@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <!-- Fill in remote dispatch server parameters here. -->
+    <Remote_Dispatch_Server>
+        <Server_IP></Server_IP>
+        <!-- MUST be consistent with Server_IP in cdf-dispatch.xml -->
+        <Server_Port>12346</Server_Port>
+        <!-- MUST be consistent with Server_Port in cdf-dispatch.xml -->
+        <Remote_Object_Name>DispatchService</Remote_Object_Name>
+        <!-- MUST be consistent with Remote_Object_Name in cdf-dispatch.xml -->
+    </Remote_Dispatch_Server>
+    <Report>
+        <Export_Dir>/export/home/cdfreport</Export_Dir>
+        <!-- The directory where reports is stored. -->
+        <Delete_PreRecords>true</Delete_PreRecords>
+        <!-- MUST NOT change. Only for debug purpose -->
+    </Report>
+</Server>
+

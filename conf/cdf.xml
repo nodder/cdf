@@ -1,0 +1,164 @@
+<BULKPOOL_CONF>
+    <get bulkpool="USERPORT(ALL)" type="get-all" allow-type="rack/shelf/slot/port" allow-criteria="" poll-Interval="1440" >      
+        <mib name="ifAlias" oid=".1.3.6.1.2.1.31.1.1.1.18" description=""/>  
+    </get>
+    
+    <get bulkpool="USERPORT(DsDataRateConfPrf)" type="get-all" allow-type="string" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxAnXdsl2ChConfMaxDataRateDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.10.1.4" description=""/>
+    </get>
+    
+    <get bulkpool="USERPORT(UsDataRateConfPrf)" type="get-all" allow-type="string" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxAnXdsl2ChConfMaxDataRateUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.11.1.4" description=""/>
+    </get>
+    
+    <get bulkpool="USERPORT(SpectrumConfPrf)" type="get-all" allow-type="string" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxAnXdsl2LConfXtuTransSysEna" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.12.1.2" description=""/>
+    </get>
+    
+    <get bulkpool="USERPORT(DelayInpConfPrf)" type="get-all" allow-type="string" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxAnXdsl2ChConfMaxDelayDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.2" description=""/>
+        <mib name="zxAnXdsl2ChConfMaxDelayUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.3" description=""/>
+        <mib name="zxAnXdsl2ChConfMinProtectDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.4" description=""/>
+        <mib name="zxAnXdsl2ChConfMinProtectUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.5" description=""/>
+        <mib name="zxAnXdsl2ChConfForceInpDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.8" description=""/>
+        <mib name="zxAnXdsl2ChConfForceInpUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.3.16.1.9" description=""/>
+    </get>
+            
+    <get bulkpool="USERPORT(LINE)" type="get-all" allow-type="rack/shelf/slot/port" allow-criteria="" poll-Interval="1440" >  
+        <mib name="dsl2LnCh1DsDataRateConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.1" description=""/>
+        <mib name="dsl2LnCh1UsDataRateConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.5" description=""/>
+        <mib name="zxAnXdsl2LnSpectrumConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.9" description=""/>
+        <mib name="zxAnXdsl2LnDpboConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.10" description=""/>
+        <mib name="zxAnXdsl2LnSnrMarginConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.12" description=""/>
+        <mib name="zxAnXdsl2LnCh1DelayInpConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.13" description=""/>
+        <mib name="zxAnXdsl2LnStatusXtuTransSys" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.28" description="Operational Mode"/>
+        <mib name="zxAnXdsl2LnStatusAttainRateDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.35" description="Attainable bitrate downstream"/>
+        <mib name="zxAnXdsl2LnStatusAttainRateUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.36" description="Attainable bitrate upstream"/>       
+        <mib name="zxAnXdsl2LnStatusActAtpDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.39" description="Output power upstream"/>
+        <mib name="zxAnXdsl2LnStatusActAtpUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.40" description="Output power downstream"/>
+        <mib name="zxAnXdsl2LnStatusElectLenDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.47" description=""/>    
+        <mib name="zxAnXdsl2LnStatusElectLenUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.48" description=""/>
+        <mib name="zxAnXdsl2LnStatusLnAttenDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.92" description=""/>     
+        <mib name="zxAnXdsl2LnStatusLnAttenUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.93" description=""/>            
+        <mib name="zxAnXdsl2LnStatusSigAttenDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.94" description=""/>
+        <mib name="zxAnXdsl2LnStatusSigAttenUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.95" description=""/>   
+        <mib name="zxAnXdsl2LnStatusSnrMarginDs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.96" description=""/>     
+        <mib name="zxAnXdsl2LnStatusSnrMarginUs" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.97" description=""/>      
+    </get> 
+
+    <get bulkpool="USERPORT(Inventory)" type="get-all" allow-type="rack/shelf/slot/port/subid" allow-criteria="" poll-Interval="1440" >
+        <mib name="xdsl2LInvG994VendorId" oid=".1.3.6.1.2.1.10.98.1.3.1.1.2" description=""/>
+        <mib name="xdsl2LInvSystemVendorId" oid=".1.3.6.1.2.1.10.98.1.3.1.1.3" description=""/>
+        <mib name="xdsl2LInvVersionNumber" oid=".1.3.6.1.2.1.10.98.1.3.1.1.4" description=""/>
+        <mib name="xdsl2LInvTransmissionCapabilities" oid=".1.3.6.1.2.1.10.98.1.3.1.1.7" description=""/>
+    </get>
+    
+    <get bulkpool="USERPORT(ChannelStatus)" type="get-all" allow-type="rack/shelf/slot/port/subid" allow-criteria="" poll-Interval="1440" >
+        <mib name="xdsl2ChStatusActDataRate" oid=".1.3.6.1.2.1.10.98.1.2.1.1.3" description=""/>
+        <mib name="xdsl2ChStatusActDelay" oid=".1.3.6.1.2.1.10.98.1.2.1.1.5" description="Actual Delay"/>
+        <mib name="xdsl2ChStatusActInp" oid=".1.3.6.1.2.1.10.98.1.2.1.1.6" description="Actual INP"/>      
+    </get>
+    
+    <get bulkpool="USERPORT(InvertedStack)" type="get-all" allow-type="rack/shelf/slot/port/subid" allow-criteria="" poll-Interval="1440" >
+        <mib name="ifInvStackStatus" oid=".1.3.6.1.2.1.77.1.1.1.1" description="Bond ID"/>
+    </get>
+    
+    <get bulkpool="USERPORT(BondPortStatus)" type="get-all" allow-type="intid" allow-criteria="" poll-Interval="1440" >
+        <mib name="gBondDownDataRate" oid=".1.3.6.1.2.1.2001.1.1.3.1.4" description=""/> 
+        <mib name="gBondUpDataRate" oid=".1.3.6.1.2.1.2001.1.1.3.1.3" description=""/>          
+    </get>
+    
+    <get bulkpool="USERPORTRABBIT(ALL)" type="get-all" allow-type="rack/shelf/slot/port" allow-criteria="" poll-Interval="1440" >      
+        <mib name="ifAlias" oid=".1.3.6.1.2.1.31.1.1.1.18" description=""/>  
+    </get>
+    
+    <get bulkpool="USERPORTRABBIT(LINE)" type="get-all" allow-type="rack/shelf/slot/port" allow-criteria="" poll-Interval="1440" >  
+        <mib name="dsl2LnCh1DsDataRateConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.1" description=""/>
+        <mib name="dsl2LnCh1UsDataRateConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.5" description=""/>
+        <mib name="zxAnXdsl2LnSpectrumConfPrf" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.9" description=""/>   
+        <mib name="zxAnXdsl2LnStatusXtuTransSys" oid=".1.3.6.1.4.1.3902.1015.1001.1.2.10.1.28" description="Operational Mode"/>
+    </get>
+    
+    <get bulkpool="USERPORT(Board)" type="get-all" allow-type="rack/shelf/slot" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxDslBoardType" oid=".1.3.6.1.4.1.3902.1004.3.1.1.6.1.4" description=""/>
+    </get>
+    
+    <get bulkpool="USERPORTRABBIT(Board)" type="get-all" allow-type="rack/shelf/slot" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxDslBoardType" oid=".1.3.6.1.4.1.3902.1004.3.1.1.6.1.4" description=""/>
+    </get>
+
+    <get bulkpool="USERPORT(PORTSTATUS)" type="get-all" allow-type="rack/shelf/slot/port" allow-criteria="" poll-Interval="1440" >  
+        <mib name="ifOperStatus" oid=".1.3.6.1.2.1.2.2.1.8" description=""/>
+    </get>
+    
+    <get bulkpool="UPLINKPORT" type="get" allow-type="rack/shelf/slot/port" allow-criteria="1/1/7/1,1/1/7/2,1/1/7/3,1/1/7/4" poll-Interval="1440" >
+        <mib name="ifHCOutOctets" oid=".1.3.6.1.2.1.31.1.1.1.10" description=""/>     
+        <mib name="ifHCInOctets" oid=".1.3.6.1.2.1.31.1.1.1.6" description=""/>     
+        <mib name="ifHCOutUcastPkts" oid=".1.3.6.1.2.1.31.1.1.1.11" description=""/>
+        <mib name="ifHCInUcastPkts" oid=".1.3.6.1.2.1.31.1.1.1.7" description=""/>   
+        <mib name="ifHCOutMulticastPkts " oid=".1.3.6.1.2.1.31.1.1.1.12" description=""/>     
+        <mib name="ifHCInMulticastPkts" oid=".1.3.6.1.2.1.31.1.1.1.8" description=""/>
+        <mib name="ifHCOutBroadcastPkts" oid=".1.3.6.1.2.1.31.1.1.1.13" description=""/> 
+        <mib name="ifHCInBroadcastPkts" oid=".1.3.6.1.2.1.31.1.1.1.9" description=""/>  
+        <mib name="zxAnEtherIfOutDiscardPktRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.9" description=""/>
+        <mib name="zxAnEtherIfInDiscardPktRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.14" description=""/>
+        <mib name="zxAnEtherIfInErrPktRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.16" description=""/> 
+        <mib name="zxAnEtherIfStatOutDiscardPkt" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.26" description=""/> 
+        <mib name="zxAnEtherIfStatInDiscardPkt" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.27" description=""/>    
+        <mib name="zxAnEtherIfInOctetsError" oid=".1.3.6.1.4.1.3902.1015.3.1.3.1.22" description=""/>       
+    </get>
+    
+    <get bulkpool="UPLINKLAG" type="get-all" allow-type="intid" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxDslTrunkingOutOctets" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.1" description=""/>
+        <mib name="zxDslTrunkingInOctets" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.2" description=""/>
+        <mib name="zxDslTrunkingOutUCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.3" description=""/>
+        <mib name="zxDslTrunkingInUCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.4" description=""/>
+        <mib name="zxDslTrunkingOutMulticastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.5" description=""/>
+        <mib name="zxDslTrunkingInMulitcastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.6" description=""/>
+        <mib name="zxDslTrunkingOutBroadcastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.7" description=""/>
+        <mib name="zxDslTrunkingInBroadcastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.8" description=""/>
+        <mib name="zxDslTrunkingOutDiscardRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.9" description=""/>
+        <mib name="zxDslTrunkingInDiscardRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.10" description=""/>
+        <mib name="zxDslTrunkingInErrorRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.11" description=""/>
+        <mib name="zxDslTrunkingOutDiscards" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.12" description=""/>
+        <mib name="zxDslTrunkingInDiscards" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.13" description=""/>
+        <mib name="zxDslTrunkingInErrors" oid=".1.3.6.1.4.1.3902.1004.13.1.2.2.1.14" description=""/>
+    </get>
+    
+    <get bulkpool="UPLINKPORTVLAN" type="get-all" allow-type="rack/shelf/slot/port/subid" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxAnIfVlanOutOctets" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.18" description=""/>
+        <mib name="zxAnIfVlanInOctets" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.19" description=""/>
+        <mib name="zxAnIfVlanOutUnicastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.11" description=""/>
+        <mib name="zxAnIfVlanInUnicastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.5" description=""/>
+        <mib name="zxAnIfVlanOutMulticastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.12" description=""/>
+        <mib name="zxAnIfVlanInMulticastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.6" description=""/>
+        <mib name="zxAnIfVlanOutBroadcastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.10" description=""/>
+        <mib name="zxAnIfVlanInBroadcastPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.4" description=""/>
+        <mib name="zxAnIfVlanOutBandwidthDisRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.21" description=""/>
+        <mib name="zxAnIfVlanInBandwidthDisRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.22" description=""/>
+        <mib name="zxAnIfVlanOutWredDisRatio" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.23" description=""/>
+        <mib name="zxAnIfVlanOutBandwidthDisPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.24" description=""/>
+        <mib name="zxAnIfVlanInBandwidthDisPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.25" description=""/>
+        <mib name="zxAnIfVlanOutWredDisPkts" oid=".1.3.6.1.4.1.3902.1015.3.1.18.1.26" description=""/>
+    </get>
+    
+    <get bulkpool="UPLINKLAGVLAN" type="get-all" allow-type="intid/subid" allow-criteria="" poll-Interval="1440" >
+        <mib name="zxDslTrunkVlanOutOctets" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.16" description=""/>
+        <mib name="zxDslTrunkVlanInOctets" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.17" description=""/>
+        <mib name="zxDslTrunkVlanOutUCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.4" description=""/>
+        <mib name="zxDslTrunkVlanInUCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.5" description=""/>
+        <mib name="zxDslTrunkVlanOutMCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.6" description=""/>
+        <mib name="zxDslTrunkVlanInMCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.7" description=""/>
+        <mib name="zxDslTrunkVlanOutBCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.2" description=""/>
+        <mib name="zxDslTrunkVlanInBCastPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.3" description=""/>
+        <mib name="zxDslTrunkVlanOutBwDisRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.18" description=""/>
+        <mib name="zxDslTrunkVlanInBwDisRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.19" description=""/>
+        <mib name="zxDslTrunkVlanOutWredDisRatio" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.20" description=""/>
+        <mib name="zxDslTrunkVlanOutBwDisPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.21" description=""/>
+        <mib name="zxDslTrunkVlanInBwDisPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.22" description=""/>
+        <mib name="zxDslTrunkVlanOutWredDisPkts" oid=".1.3.6.1.4.1.3902.1004.13.1.2.3.1.23" description=""/>
+    </get>
+
+</BULKPOOL_CONF>
+
+

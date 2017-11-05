@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <Schedule>
+        <Report name="AN_BOARDTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_BOARDTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_ADSLPORTPERFTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_ADSLPORTPERFTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_VDSLPORTPERFTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_VDSLPORTPERFTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_SHDSLPORTPERFTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_SHDSLPORTPERFTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_ETHPORTPERFTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_ETHPORTPERFTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_IGMPUSERTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_IGMPUSERTABLE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_IGMPTRAFFICTABALE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_IGMPTRAFFICTABALE</table>
+            </DbTables>
+        </Report>
+        <Report name="AN_IGMPVLANTABLE">
+            <Schedule_Cron>0 0 11 ? * *</Schedule_Cron>
+            <DbTables>
+                <table>AN_IGMPVLANTABLE</table>
+            </DbTables>
+        </Report>
+    </Schedule>
+    <Report>
+        <TranslateRule>
+            <table name="AN_BOARDTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="cpuLoad" field="cpuLoad" fromDB="true" translate="" />
+                <sequence i18n="memUsage" field="memUsage" fromDB="true" translate="" />
+            </table>
+            <table name="AN_ADSLPORTPERFTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="adslAtucPerfLofs" field="adslAtucPerfLofs" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfLofs" field="adslAturPerfLofs" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfLoss" field="adslAtucPerfLoss" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfLoss" field="adslAturPerfLoss" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfLols" field="adslAtucPerfLols" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfLprs" field="adslAtucPerfLprs" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfLprs" field="adslAturPerfLprs" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfInits" field="adslAtucPerfInits" fromDB="true" translate="" />
+                <sequence i18n="adslAtucChanReceivedBlks" field="adslAtucChanReceivedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAturChanReceivedBlks" field="adslAturChanReceivedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAtucChanTransmittedBlks" field="adslAtucChanTransmittedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAturChanTransmittedBlks" field="adslAturChanTransmittedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAtucChanCorrectedBlks" field="adslAtucChanCorrectedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAturChanCorrectedBlks" field="adslAturChanCorrectedBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAtucChanUncorrectBlks" field="adslAtucChanUncorrectBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAturChanUncorrectBlks" field="adslAturChanUncorrectBlks" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfESs" field="adslAtucPerfESs" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfESs" field="adslAturPerfESs" fromDB="true" translate="" />
+                <sequence i18n="adslAturCurrSnrMgn" field="adslAturCurrSnrMgn" fromDB="true" translate="" />
+                <sequence i18n="adslAtucCurrSnrMgn" field="adslAtucCurrSnrMgn" fromDB="true" translate="" />
+                <sequence i18n="adslAturCurrAtn" field="adslAturCurrAtn" fromDB="true" translate="" />
+                <sequence i18n="adslAtucCurrAtn" field="adslAtucCurrAtn" fromDB="true" translate="" />
+                <sequence i18n="adslAturCurrAttainableRate" field="adslAturCurrAttainableRate" fromDB="true" translate="" />
+                <sequence i18n="adslAtucCurrAttainableRate" field="adslAtucCurrAttainableRate" fromDB="true" translate="" />
+                <sequence i18n="adslAturCurrOutputPwr" field="adslAturCurrOutputPwr" fromDB="true" translate="" />
+                <sequence i18n="adslAtucCurrOutputPwr" field="adslAtucCurrOutputPwr" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfStatFastR" field="adslAtucPerfStatFastR" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfStatFailedFastR" field="adslAtucPerfStatFailedFastR" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfStatSesL" field="adslAtucPerfStatSesL" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfStatSesL" field="adslAturPerfStatSesL" fromDB="true" translate="" />
+                <sequence i18n="adslAtucPerfStatUasL" field="adslAtucPerfStatUasL" fromDB="true" translate="" />
+                <sequence i18n="adslAturPerfStatUasL" field="adslAturPerfStatUasL" fromDB="true" translate="" />
+                <sequence i18n="adslAturChanCurrTxRate" field="adslAturChanCurrTxRate" fromDB="true" translate="" />
+                <sequence i18n="adslAtucChanCurrTxRate" field="adslAtucChanCurrTxRate" fromDB="true" translate="" />
+            </table>
+            <table name="AN_VDSLPORTPERFTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+            </table>
+            <table name="AN_SHDSLPORTPERFTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="dslStatusMaxAttainableLineRate" field="dslStatusMaxAttainableLineRate" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslStatusActualLineRate" field="hdsl2ShdslStatusActualLineRate" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointCurrAtn" field="hdsl2ShdslEndpointCurrAtn" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointCurrSnrMgn" field="hdsl2ShdslEndpointCurrSnrMgn" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointES" field="hdsl2ShdslEndpointES" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointSES" field="hdsl2ShdslEndpointSES" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointCRCanomalies" field="hdsl2ShdslEndpointCRCanomalies" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointLOSWS" field="hdsl2ShdslEndpointLOSWS" fromDB="true" translate="" />
+                <sequence i18n="hdsl2ShdslEndpointUAS" field="hdsl2ShdslEndpointUAS" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfInOctetRate" field="zxAnEtherIfInOctetRate" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfOutOctetRate" field="zxAnEtherIfOutOctetRate" fromDB="true" translate="" />
+            </table>
+            <table name="AN_ETHPORTPERFTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="etherStatsDropEvents" field="etherStatsDropEvents" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts" field="etherStatsPkts" fromDB="true" translate="" />
+                <sequence i18n="etherStatsCRCAlignErrors" field="etherStatsCRCAlignErrors" fromDB="true" translate="" />
+                <sequence i18n="etherStatsUndersizePkts" field="etherStatsUndersizePkts" fromDB="true" translate="" />
+                <sequence i18n="etherStatsOversizePkts" field="etherStatsOversizePkts" fromDB="true" translate="" />
+                <sequence i18n="etherStatsFragments" field="etherStatsFragments" fromDB="true" translate="" />
+                <sequence i18n="etherStatsJabbers" field="etherStatsJabbers" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts64Octets" field="etherStatsPkts64Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts65to127Octets" field="etherStatsPkts65to127Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts128to255Octets" field="etherStatsPkts128to255Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts256to511Octets" field="etherStatsPkts256to511Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts512to1023Octets" field="etherStatsPkts512to1023Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsPkts1024to1518Octets" field="etherStatsPkts1024to1518Octets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsCollisions" field="etherStatsCollisions" fromDB="true" translate="" />
+                <sequence i18n="ifInUcastPkts" field="ifInUcastPkts" fromDB="true" translate="" />
+                <sequence i18n="ifOutUcastPkts" field="ifOutUcastPkts" fromDB="true" translate="" />
+                <sequence i18n="etherStatsMulticastPkts" field="etherStatsMulticastPkts" fromDB="true" translate="" />
+                <sequence i18n="etherStatsBroadcastPkts" field="etherStatsBroadcastPkts" fromDB="true" translate="" />
+                <sequence i18n="ifInNUcastPkts" field="ifInNUcastPkts" fromDB="true" translate="" />
+                <sequence i18n="ifOutNUcastPkts" field="ifOutNUcastPkts" fromDB="true" translate="" />
+                <sequence i18n="ifInDiscards" field="ifInDiscards" fromDB="true" translate="" />
+                <sequence i18n="ifOutDiscards" field="ifOutDiscards" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfInOctetRate" field="zxAnEtherIfInOctetRate" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfOutOctetRate" field="zxAnEtherIfOutOctetRate" fromDB="true" translate="" />
+                <sequence i18n="ifInOctets" field="ifInOctets" fromDB="true" translate="" />
+                <sequence i18n="ifOutOctets" field="ifOutOctets" fromDB="true" translate="" />
+                <sequence i18n="etherStatsOctets" field="etherStatsOctets" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfInBandwidthUtil" field="zxAnEtherIfInBandwidthUtil" fromDB="true" translate="" />
+                <sequence i18n="zxAnEtherIfOutBandwidthUtil" field="zxAnEtherIfOutBandwidthUtil" fromDB="true" translate="" />
+            </table>
+            <table name="AN_IGMPUSERTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="zxAnIgmpCounterRxV1Report" field="zxAnIgmpCounterRxV1Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxV1Report" field="zxAnIgmpCounterDropRxV1Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxV2Report" field="zxAnIgmpCounterRxV2Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxV2Report" field="zxAnIgmpCounterDropRxV2Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxV3Report" field="zxAnIgmpCounterRxV3Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxV3Report" field="zxAnIgmpCounterDropRxV3Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxLeave" field="zxAnIgmpCounterRxLeave" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxCommQuery" field="zxAnIgmpCounterTxCommQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxSpecialQuery" field="zxAnIgmpCounterTxSpecialQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxUnknown" field="zxAnIgmpCounterDropRxUnknown" fromDB="true" translate="" />
+            </table>
+            <table name="AN_IGMPTRAFFICTABALE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslateCommon" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+            </table>
+            <table name="AN_IGMPVLANTABLE" DBOrderBy="">
+                <sequence i18n="Device_IP" field="Device_IP" fromDB="true" translate="" />
+                <sequence i18n="Device_Type" field="Device_Type" fromDB="true" translate="" />
+                <sequence i18n="Measuring_Object" field="Measuring_Object" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.tt.LocationTranslate4IgmpVlan" />
+                <sequence i18n="Collection_Time" field="Collection_Time" fromDB="true" translate="com.zte.ums.an.uni.dsl.conf.cdf.report.translate.userdefine.CollectTimeTranslate" />
+                <sequence i18n="zxAnIgmpCounterRxCommQuery" field="zxAnIgmpCounterRxCommQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxCommQuery" field="zxAnIgmpCounterTxCommQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxSpecialQuery" field="zxAnIgmpCounterRxSpecialQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxSpecialQuery" field="zxAnIgmpCounterTxSpecialQuery" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxV2Report" field="zxAnIgmpCounterRxV2Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxV2Report" field="zxAnIgmpCounterTxV2Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxV2Report" field="zxAnIgmpCounterDropRxV2Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxV3Report" field="zxAnIgmpCounterRxV3Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxV3Report" field="zxAnIgmpCounterTxV3Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxV3Report" field="zxAnIgmpCounterDropRxV3Report" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterRxLeave" field="zxAnIgmpCounterRxLeave" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterTxLeave" field="zxAnIgmpCounterTxLeave" fromDB="true" translate="" />
+                <sequence i18n="zxAnMvlanCurrActGroups" field="zxAnMvlanCurrActGroups" fromDB="true" translate="" />
+                <sequence i18n="zxAnMvlanActHosts" field="zxAnMvlanActHosts" fromDB="true" translate="" />
+                <sequence i18n="zxAnIgmpCounterDropRxUnknown" field="zxAnIgmpCounterDropRxUnknown" fromDB="true" translate="" />
+            </table>
+        </TranslateRule>
+    </Report>
+</Server>
+

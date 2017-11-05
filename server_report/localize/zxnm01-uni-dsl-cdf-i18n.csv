@@ -1,0 +1,306 @@
+Collection_Time,Time stamp,Time stamp
+Device_Name,DSLAM id,DSLAM id
+Device_IP,DSLAM IP address,DSLAM IP address
+Device_Type,DSLAM type,DSLAM type
+Measuring_Object,Measuring Object,Measuring Object
+VlanId,VLAN ID,VLAN ID
+Port_Id,Port id,Portid
+RackShelfSlotPort,Port id,Port id
+TrunkId,LAG-ID,LAG-ID
+
+ifAlias,Customer id,Customer id
+ADSL_Profile,ADSL profile,ADSL profile
+Service_Profile,Service profile,Service profile
+
+Bord_Type,Board type,Board type
+TransSysEna_Vector_Confmode,Vectoring profile,Vectoring profile
+ActualCPEVectoringStatus,Actual CPE vectoring status,Actual CPE vectoring status
+Yes,Yes,Yes
+No,No,No
+Enabled,Enabled,Enabled
+Disabled,Disabled,Disabled
+vector_disabled,vectoring disabled,vectoring disabled
+vector_enabled,vectoring enabled,vectoring enabled
+
+ifHCOutOctets,Transmitted Octets (Byte),Transmitted Octets (Byte)
+ifHCInOctets,Received Octets (Byte),Received Octets (Byte)
+ifHCOutUcastPkts,Transmitted Unicast Packets,Transmitted Unicast Packets
+ifHCInUcastPkts,Received Unicast Packets,Received Unicast Packets
+ifHCOutMulticastPkts,Transmitted Multicast Packets,Transmitted Multicast Packets
+ifHCInMulticastPkts,Received Multicast Packets,Received Multicast Packets
+ifHCOutBroadcastPkts,Transmitted Broadcast Packets,Transmitted Broadcast Packets
+ifHCInBroadcastPkts,Received Broadcast Packets,Received Broadcast Packets
+zxAnEtherIfOutDiscardPktRatio,Transmitted Discard Packets Ratio (%),Transmitted Discard Packets Ratio (%)
+zxAnEtherIfInDiscardPktRatio,Received Discard Packets Ratio (%),Received Discard Packets Ratio (%)
+zxAnEtherIfInErrPktRatio,Received Error Packets Ratio (%),Received Error Packets Ratio (%)
+zxAnEtherIfStatOutDiscardPkt,Transmitted Discard Packets,Transmitted Discard Packets
+zxAnEtherIfStatInDiscardPkt,Received Discard Packets,Received Discard Packets
+zxAnEtherIfInOctetsError,Received Error Packets,Received Error Packets
+,,
+zxDslTrunkingOutOctets,Transmitted Octets,Transmitted Octets
+zxDslTrunkingInOctets,Received Octets,Received Octets
+zxDslTrunkingOutUCastPkts,Transmitted Unicast Packets,Transmitted Unicast Packets
+zxDslTrunkingInUCastPkts,Received Unicast Packets,Received Unicast Packets
+zxDslTrunkingOutMulticastPkts,Transmitted Multicast Packets,Transmitted Multicast Packets
+zxDslTrunkingInMulitcastPkts,Received Multicast Packets,Received Multicast Packets
+zxDslTrunkingOutBroadcastPkts,Transmitted Broadcast Packets,Transmitted Broadcast Packets
+zxDslTrunkingInBroadcastPkts,Received Broadcast Packets,Received Broadcast Packets
+zxDslTrunkingOutDiscardRatio,Transmitted Discard Packet Ratio (%),Transmitted Discard Packet Ratio (%)
+zxDslTrunkingInDiscardRatio,Received Discard Packet Ratio (%),Received Discard Packet Ratio (%)
+zxDslTrunkingInErrorRatio,Received Packet Error Ratio (%),Received Packet Error Ratio (%)
+zxDslTrunkingOutDiscards,Transmitted Discard Packets,Transmitted Discard Packets
+zxDslTrunkingInDiscards,Received Discard Packets,Received Discard Packets
+zxDslTrunkingInErrors,Received Error Packets,Received Error Packets
+,,
+ifHCOutOctets,Transmitted Octets (Byte),Transmitted Octets(Byte)
+ifHCInOctets,Received Octets (Byte),Received Octets(Byte)
+ifHCOutUcastPkts,Transmitted Unicast Packets,Transmitted Unicast Packets
+ifHCInUcastPkts,Received Unicast Packets,Received Unicast Packets
+ifHCOutMulticastPkts,Transmitted Multicast Packets,Transmitted Multicast Packets
+ifHCInMulticastPkts,Received Multicast Packets,Received Multicast Packets
+ifHCOutBroadcastPkts,Transmitted Broadcast Packets,Transmitted Broadcast Packets
+ifHCInBroadcastPkts,Received Broadcast Packets,Received Broadcast Packets
+zxAnEtherIfOutDiscardPktRatio,Transmitted Discard Packets Ratio (%),Transmitted Discard Packets Ratio (%)
+zxAnEtherIfInDiscardPktRatio,Received Discard Packets Ratio (%),Received Discard Packets Ratio (%)
+zxAnEtherIfInErrPktRatio,Received Error Packets Ratio (%),Received Error Packets Ratio (%)
+zxAnEtherIfStatInDiscardPkt,Received Discard Packets,Received Discard Packets
+zxAnEtherIfInOctetsError,Received Error Packets,Received Error Packets
+dsl2LnCh1DsDataRateConfPrf,Downstream data rate profile,Downstream data rate profile
+dsl2LnCh1UsDataRateConfPrf,Upstream data rate profile,Upstream data rate profile
+zxAnXdsl2LnSpectrumConfPrf,Spectrum profile,Spectrum profile
+zxAnXdsl2LnStatusXtuTransSys,Actual transmission mode,Actual transmission mode
+zxAnXdsl2LnStatusAttainRateDs,Attainable bitrate downstream (fast),Attainable bitrate downstream (fast)
+zxAnXdsl2LnStatusAttainRateUs,Attainable bitrate upstream (fast),Attainable bitrate upstream (fast)
+zxAnXdsl2LnStatusActAtpDs,Output power downstream,Output power downstream
+zxAnXdsl2LnStatusActAtpUs,Output power upstream,Output power upstream
+zxAnXdsl2LnStatusLnAttenDs,Loop attenuation downstream,Loop attenuation downstream
+zxAnXdsl2LnStatusLnAttenUs,Loop attenuation upstream,Loop attenuation upstream
+zxAnXdsl2LnStatusSigAttenDs,Signal attenuation downstream,Signal attenuation downstream
+zxAnXdsl2LnStatusSigAttenUs,Signal attenuation upstream,Signal attenuation upstream
+zxAnXdsl2LnStatusSnrMarginDs,Noise margin downstream,Noise margin downstream
+zxAnXdsl2LnStatusSnrMarginUs,Noise margin upstream,Noise margin upstream
+xdsl2ChStatusActDataRateXtuc,Actual bitrate downstream (fast),Actual bitrate downstream (fast)
+xdsl2ChStatusActDelayXtuc,Actual delay downstream,Actual delay downstream
+xdsl2ChStatusActInpXtuc,Actual INP downstream,Actual INP downstream
+xdsl2ChStatusActDataRateXtur,Actual bitrate upstream (fast),Actual bitrate upstream (fast)
+xdsl2ChStatusActDelayXtur,Actual delay upstream,Actual delay upstream
+xdsl2ChStatusActInpXtur,Actual INP upstream,Actual INP upstream
+Bond_ID,Bonding group id,Bonding group id
+
+xdsl2LInvG994VendorIdXtuc,Vendor name,Vendor name
+xdsl2LInvG994VendorIdXtur,Modem vendor name,Modem vendor name
+
+xdsl2LInvSystemVendorIdXtuc,Vendor name,Vendor name
+xdsl2LInvSystemVendorIdXtur,Modem vendor name,Modem vendor name
+xdsl2LInvVersionNumberXtur,Version number,Version number
+TransmissionCapabilitiesXtur,Actual CPE vectoring capabilities,Actual CPE vectoring capabilities
+gBondDownDataRate,Bonded group actual bitrate downstream (fast),Bonded group actual bitrate downstream (fast)
+gBondUpDataRate,Bonded group actual bitrate upstream (fast),Bonded group actual bitrate upstream (fast)
+zxAnXdsl2ChConfMaxDataRateDs,Configured service profile bitrate downstream,Configured service profile bitrate downstream
+zxAnXdsl2ChConfMaxDataRateUs,Configured service profile bitrate upstream,Configured service profile bitrate upstream
+zxAnXdsl2LnCh1DelayInpConfPrf,Delay and INP Profile,Delay and INP Profile,Delay and INP Profile,Delay and INP Profile
+zxAnXdsl2ChConfMaxDelayDs,Configured service profile delay downstream,Configured service profile delay downstream
+zxAnXdsl2ChConfMaxDelayUs,Configured service profile delay upstream,Configured service profile delay upstream
+zxAnXdsl2ChConfMinProtectDs,Configured service profile inp downstream,Configured service profile inp downstream
+zxAnXdsl2ChConfMinProtectUs,Conifgured service profile inp upstream,Conifgured service profile inp upstream
+zxAnXdsl2LnStatusElectLenUs,EL VTU-R (ESTIMATED),EL VTU-R (ESTIMATED)
+zxAnXdsl2LnStatusElectLenDs,EL VTU-O (USED),EL VTU-O (USED)
+
+zxAnXdsl2ChConfForceInpDs,G.inp active downstream,G.inp active downstream
+zxAnXdsl2ChConfForceInpUs,G.inp active upstream,G.inp active upstream
+
+zxDslTrunkVlanOutOctets,Transmitted Octets (Byte),Transmitted Octets (Byte)
+zxDslTrunkVlanInOctets,Received Octets (Byte),Received Octets (Byte)
+zxDslTrunkVlanOutUCastPkts,Transmitted Unicast Packets,Transmitted Unicast Packets
+zxDslTrunkVlanInUCastPkts,Received Unicast Packets,Received Unicast Packets
+zxDslTrunkVlanOutMCastPkts,Transmitted Multicast Packets,Transmitted Multicast Packets
+zxDslTrunkVlanInMCastPkts,Received Multicast Packets,Received Multicast Packets
+zxDslTrunkVlanOutBCastPkts,Transmitted Broadcast Packets,Transmitted Broadcast Packets
+zxDslTrunkVlanInBCastPkts,Received Broadcast Packets,Received Broadcast Packets
+zxDslTrunkVlanOutBwDisRatio,Transmitted Dropped (rate limiter) Ratio(%),Transmitted Dropped (rate limiter) Ratio(%)
+zxDslTrunkVlanInBwDisRatio,Received Dropped (rate limiter) Ratio(%),Received Dropped (rate limiter) Ratio(%)
+zxDslTrunkVlanOutWredDisRatio,Transmitted Dropped (shaped) Packets Ratio(%),Transmitted Dropped (shaped) Packets Ratio(%)
+zxDslTrunkVlanOutBwDisPkts,Transmitted Dropped (rate limiter) Packets,Transmitted Dropped (rate limiter) Packets
+zxDslTrunkVlanInBwDisPkts,Received Dropped (rate limiter) Packets,Received Dropped (rate limiter) Packets
+zxDslTrunkVlanOutWredDisPkts,Transmitted Dropped (shaped) Packets,Transmitted Dropped (shaped) Packets
+
+,,
+zxAnIfVlanOutOctets,Transmitted Octets (Byte),Transmitted Octets (Byte)
+zxAnIfVlanInOctets,Received Octets (Byte),Received Octets (Byte)
+zxAnIfVlanOutUnicastPkts,Transmitted Unicast Packets,Transmitted Unicast Packets
+zxAnIfVlanInUnicastPkts,Received Unicast Packets,Received Unicast Packets
+zxAnIfVlanOutMulticastPkts,Transmitted Multicast Packets,Transmitted Multicast Packets
+zxAnIfVlanInMulticastPkts,Received Multicast Packets,Received Multicast Packets
+zxAnIfVlanOutBroadcastPkts,Transmitted Broadcast Packets,Transmitted Broadcast Packets
+zxAnIfVlanInBroadcastPkts,Received Broadcast Packets,Received Broadcast Packets
+zxAnIfVlanOutBandwidthDisRatio,Transmitted Dropped (rate limiter) Ratio (%),Transmitted Dropped (rate limiter) Ratio (%)
+zxAnIfVlanInBandwidthDisRatio,Received Dropped (rate limiter) Ratio (%),Received Dropped (rate limiter) Ratio (%)
+zxAnIfVlanOutWredDisRatio,Transmitted Dropped (shaped) Packets Ratio (%),Transmitted Dropped (shaped) Packets Ratio (%)
+zxAnIfVlanOutBandwidthDisPkts,Transmitted Dropped (rate limiter) Packets,Transmitted Dropped (rate limiter) Packets
+zxAnIfVlanInBandwidthDisPkts,Received Dropped (rate limiter) Packets,Received Dropped (rate limiter) Packets
+zxAnIfVlanOutWredDisPkts,Transmitted Dropped (shaped) Packets,Transmitted Dropped (shaped) Packets
+
+
+#TransMode
+"RES_TransMode_Category_Adsl","ADSL","ADSL"
+"RES_TransMode_Category_Adsl2","ADSL2","ADSL2"
+"RES_TransMode_Category_Adsl2Plus","ADSL2+","ADSL2+"
+"RES_TransMode_Category_Vdsl2","VDSL2","VDSL2"
+
+"RES_TransMode_Description_ansit1413","Regional Std. (ANSI T1.413) (Full-Rate)","Regional Std. (ANSI T1.413) (Full-Rate)"
+"RES_TransMode_Description_etsi","Regional Std. (ETSI DTS/TM06006) (Full-Rate)","Regional Std. (ETSI DTS/TM06006) (Full-Rate)"
+"RES_TransMode_Description_g9921PotsNonOverlapped","G.992.1 POTS non-overlapped (Full-Rate)","G.992.1 POTS non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9921PotsOverlapped","G.992.1 POTS overlapped (Full-Rate)","G.992.1 POTS overlapped (Full-Rate)"
+"RES_TransMode_Description_g9921IsdnNonOverlapped","G.992.1 ISDN non-overlapped (Full-Rate)","G.992.1 ISDN non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9921IsdnOverlapped","G.992.1 ISDN overlapped (Full-Rate)","G.992.1 ISDN overlapped (Full-Rate)"
+"RES_TransMode_Description_g9921tcmIsdnNonOverlapped","G.992.1 TCM-ISDN non-overlapped (Full-Rate)","G.992.1 TCM-ISDN non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9921tcmIsdnOverlapped","G.992.1 TCM-ISDN overlapped (Full-Rate)","G.992.1 TCM-ISDN overlapped (Full-Rate)"
+"RES_TransMode_Description_g9922potsNonOverlapped","G.992.2 POTS non-overlapped (Lite)","G.992.2 POTS non-overlapped (Lite)"
+"RES_TransMode_Description_g9922potsOverlapped","G.992.2 POTS overlapped (Lite)","G.992.2 POTS overlapped (Lite)"
+"RES_TransMode_Description_g9922tcmIsdnNonOverlapped","G.992.2 with TCM-ISDN non-overlapped (Lite)","G.992.2 with TCM-ISDN non-overlapped (Lite)"
+"RES_TransMode_Description_g9922tcmIsdnOverlapped","G.992.2 with TCM-ISDN overlapped (Lite)","G.992.2 with TCM-ISDN overlapped (Lite)"
+"RES_TransMode_Description_g9921tcmIsdnSymmetric","G.992.1 TCM-ISDN symmetric (Full-Rate)","G.992.1 TCM-ISDN symmetric (Full-Rate)"
+"RES_TransMode_Description_reserved1","Reserved1","Reserved1"
+"RES_TransMode_Description_reserved2","Reserved2","Reserved2"
+"RES_TransMode_Description_reserved3","Reserved3","Reserved3"
+"RES_TransMode_Description_reserved4","Reserved4","Reserved4"
+"RES_TransMode_Description_reserved5","Reserved5","Reserved5"
+"RES_TransMode_Description_g9923PotsNonOverlapped","G.992.3 POTS non-overlapped (Full-Rate)","G.992.3 POTS non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923PotsOverlapped","G.992.3 POTS overlapped (Full-Rate)","G.992.3 POTS overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923IsdnNonOverlapped","G.992.3 ISDN non-overlapped (Full-Rate)","G.992.3 ISDN non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923IsdnOverlapped","G.992.3 ISDN overlapped (Full-Rate)","G.992.3 ISDN overlapped (Full-Rate)"
+"RES_TransMode_Description_reserved6","Reserved6","Reserved6"
+"RES_TransMode_Description_reserved7","Reserved7","Reserved7"
+"RES_TransMode_Description_g9924potsNonOverlapped","G.992.4 POTS non-overlapped (Lite)","G.992.4 POTS non-overlapped (Lite)"
+"RES_TransMode_Description_g9924potsOverlapped","G.992.4 POTS overlapped (Lite)","G.992.4 POTS overlapped (Lite)"
+"RES_TransMode_Description_reserved8","Reserved8","Reserved8"
+"RES_TransMode_Description_reserved9","Reserved9","Reserved9"
+"RES_TransMode_Description_g9923AnnexIAllDigNonOverlapped","G.992.3 Annex I All-Digital non-overlapped (Full-Rate)","G.992.3 Annex I All-Digital non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexIAllDigOverlapped","G.992.3 Annex I All-Digital overlapped (Full-Rate)","G.992.3 Annex I All-Digital overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexJAllDigNonOverlapped","G.992.3 Annex J All-Digital non-overlapped (Full-Rate)","G.992.3 Annex J All-Digital non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexJAllDigOverlapped","G.992.3 Annex J All-Digital overlapped (Full-Rate)","G.992.3 Annex J All-Digital overlapped (Full-Rate)"
+"RES_TransMode_Description_g9924AnnexIAllDigNonOverlapped","G.992.4 Annex I All-Digital non-overlapped (Lite)","G.992.4 Annex I All-Digital non-overlapped (Lite)"
+"RES_TransMode_Description_g9924AnnexIAllDigOverlapped","G.992.4 Annex I All-Digital overlapped (Lite)","G.992.4 Annex I All-Digital overlapped (Lite)"
+"RES_TransMode_Description_g9923AnnexLMode1NonOverlapped","G.992.3 Annex L POTS non-overlapped, mode 1, wide U/S (Full-Rate)","G.992.3 Annex L POTS non-overlapped, mode 1, wide U/S (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexLMode2NonOverlapped","G.992.3 Annex L POTS non-overlapped, mode 2, narrow U/S (Full-Rate)","G.992.3 Annex L POTS non-overlapped, mode 2, narrow U/S (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexLMode3Overlapped","G.992.3 Annex L POTS overlapped, mode 3, wide U/S (Full-Rate)","G.992.3 Annex L POTS overlapped, mode 3, wide U/S (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexLMode4Overlapped","G.992.3 Annex L POTS overlapped, mode 4, narrow U/S (Full-Rate)","G.992.3 Annex L POTS overlapped, mode 4, narrow U/S (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexMPotsNonOverlapped","G.992.3 Annex M POTS non-overlapped (Full-Rate)","G.992.3 Annex M POTS non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9923AnnexMPotsOverlapped","G.992.3 Annex M POTS overlapped (Full-Rate)","G.992.3 Annex M POTS overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925PotsNonOverlapped","G.992.5 POTS non-overlapped (Full-Rate)","G.992.5 POTS non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925PotsOverlapped","G.992.5 POTS overlapped (Full-Rate)","G.992.5 POTS overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925IsdnNonOverlapped","G.992.5 ISDN non-overlapped (Full-Rate)","G.992.5 ISDN non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925IsdnOverlapped","G.992.5 ISDN overlapped (Full-Rate)","G.992.5 ISDN overlapped (Full-Rate)"
+"RES_TransMode_Description_reserved10","Reserved10","Reserved10"
+"RES_TransMode_Description_reserved11","Reserved11","Reserved11"
+"RES_TransMode_Description_g9925AnnexIAllDigNonOverlapped","G.992.5 Annex I All-Digital non-overlapped (Full-Rate)","G.992.5 Annex I All-Digital non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925AnnexIAllDigOverlapped","G.992.5 Annex I All-Digital overlapped (Full-Rate)","G.992.5 Annex I All-Digital overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925AnnexJAllDigNonOverlapped","G.992.5 Annex J All-Digital non-overlapped (Full-Rate)","G.992.5 Annex J All-Digital non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925AnnexJAllDigOverlapped","G.992.5 Annex J All-Digital overlapped (Full-Rate)","G.992.5 Annex J All-Digital overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925AnnexMPotsNonOverlapped","G.992.5 Annex M POTS non-overlapped (Full-Rate)","G.992.5 Annex M POTS non-overlapped (Full-Rate)"
+"RES_TransMode_Description_g9925AnnexMPotsOverlapped","G.992.5 Annex M POTS overlapped (Full-Rate)","G.992.5 Annex M POTS overlapped (Full-Rate)"
+"RES_TransMode_Description_reserved12","Reserved12","Reserved12"
+"RES_TransMode_Description_reserved13","Reserved13","Reserved13"
+"RES_TransMode_Description_reserved14","Reserved14","Reserved14"
+"RES_TransMode_Description_reserved15","Reserved15","Reserved15"
+"RES_TransMode_Description_g9932AnnexA","G.993.2 Region A (North America)","G.993.2 Region A (North America)"
+"RES_TransMode_Description_g9932AnnexB","G.993.2 Region B (Europe)","G.993.2 Region B (Europe)"
+"RES_TransMode_Description_g9932AnnexC","G.993.2 Region C (Japan)","G.993.2 Region C (Japan)"
+"RES_TransMode_Description_g9935AnnexA","G.993.5 Region A (North America)","G.993.5 Region A (North America)"
+"RES_TransMode_Description_g9935AnnexB","G.993.5 Region B (Europe)","G.993.5 Region B (Europe)"
+"RES_TransMode_Description_g9935AnnexC","G.993.5 Region C (Japan)","G.993.5 Region C (Japan)"
+"RES_TransMode_Description_reserved16","Reserved16","Reserved16"
+"RES_TransMode_Description_reserved17","Reserved17","Reserved17"
+"RES_TransMode_Description_reserved18","Reserved18","Reserved18"
+"RES_TransMode_Description_reserved19","Reserved19","Reserved19"
+"RES_TransMode_Description_reserved20","Reserved20","Reserved20"
+
+"RES_TransMode_Standard_ansit1413","ANSI T1.413","ANSI T1.413"
+"RES_TransMode_Standard_etsi","ETSI DTS/TM06006","ETSI DTS/TM06006"
+"RES_TransMode_Standard_g9921PotsNonOverlapped","G.DMT POTS (G.992.1)","G.DMT POTS (G.992.1)"
+"RES_TransMode_Standard_g9921PotsOverlapped","G.DMT POTS (G.992.1)","G.DMT POTS (G.992.1)"
+"RES_TransMode_Standard_g9921IsdnNonOverlapped","G.DMT ISDN (G.992.1)","G.DMT ISDN (G.992.1)"
+"RES_TransMode_Standard_g9921IsdnOverlapped","G.DMT ISDN (G.992.1)","G.DMT ISDN (G.992.1)"
+"RES_TransMode_Standard_g9921tcmIsdnNonOverlapped","G.DMT TCM-ISDN (G.992.1)","G.DMT TCM-ISDN (G.992.1)"
+"RES_TransMode_Standard_g9921tcmIsdnOverlapped","G.DMT TCM-ISDN (G.992.1)","G.DMT TCM-ISDN (G.992.1)"
+"RES_TransMode_Standard_g9922potsNonOverlapped","G.LITE POTS (G.992.2)","G.LITE POTS (G.992.2)"
+"RES_TransMode_Standard_g9922potsOverlapped","G.LITE POTS (G.992.2)","G.LITE POTS (G.992.2)"
+"RES_TransMode_Standard_g9922tcmIsdnNonOverlapped","G.LITE TCM-ISDN (G.992.2)","G.LITE TCM-ISDN (G.992.2)"
+"RES_TransMode_Standard_g9922tcmIsdnOverlapped","G.LITE TCM-ISDN (G.992.2)","G.LITE TCM-ISDN (G.992.2)"
+"RES_TransMode_Standard_g9921tcmIsdnSymmetric","G.DMT TCM-ISDN (G.992.1)","G.DMT TCM-ISDN (G.992.1)"
+"RES_TransMode_Standard_reserved1","--","--"
+"RES_TransMode_Standard_reserved2","--","--"
+"RES_TransMode_Standard_reserved3","--","--"
+"RES_TransMode_Standard_reserved4","--","--"
+"RES_TransMode_Standard_reserved5","--","--"
+"RES_TransMode_Standard_g9923PotsNonOverlapped","ADSL2 POTS (G.992.3)","ADSL2 POTS (G.992.3)"
+"RES_TransMode_Standard_g9923PotsOverlapped","ADSL2 POTS (G.992.3)","ADSL2 POTS (G.992.3)"
+"RES_TransMode_Standard_g9923IsdnNonOverlapped","ADSL2 ISDN (G.992.3)","ADSL2 ISDN (G.992.3)"
+"RES_TransMode_Standard_g9923IsdnOverlapped","ADSL2 ISDN (G.992.3)","ADSL2 ISDN (G.992.3)"
+"RES_TransMode_Standard_reserved6","--","--"
+"RES_TransMode_Standard_reserved7","--","--"
+"RES_TransMode_Standard_g9924potsNonOverlapped","ADSL2 LITE POTS (G.992.4)","ADSL2 LITE POTS (G.992.4)"
+"RES_TransMode_Standard_g9924potsOverlapped","ADSL2 LITE POTS (G.992.4)","ADSL2 LITE POTS (G.992.4)"
+"RES_TransMode_Standard_Reserved8","--","--"
+"RES_TransMode_Standard_Reserved9","--","--"
+"RES_TransMode_Standard_g9923AnnexIAllDigNonOverlapped","ADSL2 (G.992.3)","ADSL2 (G.992.3)"
+"RES_TransMode_Standard_g9923AnnexIAllDigOverlapped","ADSL2 (G.992.3)","ADSL2 (G.992.3)"
+"RES_TransMode_Standard_g9923AnnexJAllDigNonOverlapped","ADSL2 (G.992.3)","ADSL2 (G.992.3)"
+"RES_TransMode_Standard_g9923AnnexJAllDigOverlapped","ADSL2 (G.992.3)","ADSL2 (G.992.3)"
+"RES_TransMode_Standard_g9924AnnexIAllDigNonOverlapped","ADSL2 LITE (G.992.4)","ADSL2 LITE (G.992.4)"
+"RES_TransMode_Standard_g9924AnnexIAllDigOverlapped","ADSL2 LITE (G.992.4)","ADSL2 LITE (G.992.4)"
+"RES_TransMode_Standard_g9923AnnexLMode1NonOverlapped","ADSL2 POTS (G.992.3 Mode 1 Wide U/S)","ADSL2 POTS (G.992.3 Mode 1 Wide U/S)"
+"RES_TransMode_Standard_g9923AnnexLMode2NonOverlapped","ADSL2 POTS (G.992.3 Mode 2 Narrow U/S)","ADSL2 POTS (G.992.3 Mode 2 Narrow U/S)"
+"RES_TransMode_Standard_g9923AnnexLMode3Overlapped","ADSL2 POTS (G.992.3 Mode 3 Wide U/S)","ADSL2 POTS (G.992.3 Mode 3 Wide U/S)"
+"RES_TransMode_Standard_g9923AnnexLMode4Overlapped","ADSL2 POTS (G.992.3 Mode 4 Narrow U/S)","ADSL2 POTS (G.992.3 Mode 4 Narrow U/S)"
+"RES_TransMode_Standard_g9923AnnexMPotsNonOverlapped","ADSL2 POTS (G.992.3)","ADSL2 POTS (G.992.3)"
+"RES_TransMode_Standard_g9923AnnexMPotsOverlapped","ADSL2 POTS (G.992.3)","ADSL2 POTS (G.992.3)"
+"RES_TransMode_Standard_g9925PotsNonOverlapped","ADSL2+ POTS (G.992.5)","ADSL2+ POTS (G.992.5)"
+"RES_TransMode_Standard_g9925PotsOverlapped","ADSL2+ POTS (G.992.5)","ADSL2+ POTS (G.992.5)"
+"RES_TransMode_Standard_g9925IsdnNonOverlapped","ADSL2+ ISDN (G.992.5)","ADSL2+ ISDN (G.992.5)"
+"RES_TransMode_Standard_g9925IsdnOverlapped","ADSL2+ ISDN (G.992.5)","ADSL2+ ISDN (G.992.5)"
+"RES_TransMode_Standard_reserved10","--","--"
+"RES_TransMode_Standard_reserved11","--","--"
+"RES_TransMode_Standard_g9925AnnexIAllDigNonOverlapped","ADSL2+ (G.992.5)","ADSL2+ (G.992.5)"
+"RES_TransMode_Standard_g9925AnnexIAllDigOverlapped","ADSL2+ (G.992.5)","ADSL2+ (G.992.5)"
+"RES_TransMode_Standard_g9925AnnexJAllDigNonOverlapped","ADSL2+ (G.992.5)","ADSL2+ (G.992.5)"
+"RES_TransMode_Standard_g9925AnnexJAllDigOverlapped","ADSL2+ (G.992.5)","ADSL2+ (G.992.5)"
+"RES_TransMode_Standard_g9925AnnexMPotsNonOverlapped","ADSL2+ POTS (G.992.5)","ADSL2+ POTS (G.992.5)"
+"RES_TransMode_Standard_g9925AnnexMPotsOverlapped","ADSL2+ POTS (G.992.5)","ADSL2+ POTS (G.992.5)"
+"RES_TransMode_Standard_reserved12","--","--"
+"RES_TransMode_Standard_reserved13","--","--"
+"RES_TransMode_Standard_reserved14","--","--"
+"RES_TransMode_Standard_reserved15","--","--"
+"RES_TransMode_Standard_g9932AnnexA","VDSL2 (G.993.2)","VDSL2 (G.993.2)"
+"RES_TransMode_Standard_g9932AnnexB","VDSL2 (G.993.2)","VDSL2 (G.993.2)"
+"RES_TransMode_Standard_g9932AnnexC","VDSL2 (G.993.2)","VDSL2 (G.993.2)"
+"RES_TransMode_Standard_g9935AnnexA","VDSL2 (G.993.5)","VDSL2 (G.993.5)"
+"RES_TransMode_Standard_g9935AnnexB","VDSL2 (G.993.5)","VDSL2 (G.993.5)"
+"RES_TransMode_Standard_g9935AnnexC","VDSL2 (G.993.5)","VDSL2 (G.993.5)"
+"RES_TransMode_Standard_reserved16","--","--"
+"RES_TransMode_Standard_reserved17","--","--"
+"RES_TransMode_Standard_reserved18","--","--"
+"RES_TransMode_Standard_reserved19","--","--"
+"RES_TransMode_Standard_reserved20","--","--"
+
+#Min_Protection
+"RES_MinInp","Minimum Impulse Noise Protection","Minimum Impulse Noise Protection"
+"RES_MinInp_Auto","Auto-adaption","Auto-adaption"
+"RES_MinInp_NoProtection","No Protection","No Protection"
+"RES_MinInp_HalfSymbol","0.5 Symbol","0.5 Symbol"
+"RES_MinInp_1Symbol","1 Symbol","1 Symbol"
+"RES_MinInp_2Symbols","2 Symbols","2 Symbols"
+"RES_MinInp_3Symbols","3 Symbols","3 Symbols"
+"RES_MinInp_4Symbols","4 Symbols","4 Symbols"
+"RES_MinInp_5Symbols","5 Symbols","5 Symbols"
+"RES_MinInp_6Symbols","6 Symbols","6 Symbols"
+"RES_MinInp_7Symbols","7 Symbols","7 Symbols"
+"RES_MinInp_8Symbols","8 Symbols","8 Symbols"
+"RES_MinInp_9Symbols","9 Symbols","9 Symbols"
+"RES_MinInp_10Symbols","10 Symbols","10 Symbols"
+"RES_MinInp_11Symbols","11 Symbols","11 Symbols"
+"RES_MinInp_12Symbols","12 Symbols","12 Symbols"
+"RES_MinInp_13Symbols","13 Symbols","13 Symbols"
+"RES_MinInp_14Symbols","14 Symbols","14 Symbols"
+"RES_MinInp_15Symbols","15 Symbols","15 Symbols"
+"RES_MinInp_16Symbols","16 Symbols","16 Symbols"

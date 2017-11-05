@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <!-- MUST NOT change -->
+    <BulkPool_Validation>
+        <Group name="USERPORT_BRT">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+                <Field>getMoc</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="USERPORT(ALL)" />
+                <BulkPool name="USERPORT(LINE)" />
+            </merge>
+            <append>
+                <BulkPool name="USERPORT(InvertedStack)" readProxy="com.zte.ums.an.uni.dsl.conf.cdf.collect.parser.bufferreader.BondIDBufferedReader">
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1" />
+                    <!-- Bond ID Index==21-->
+                </BulkPool>
+                <BulkPool name="USERPORT(Inventory)" readProxy="com.zte.ums.an.uni.dsl.conf.cdf.collect.parser.bufferreader.DoubleLineBufferedReader">
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1,2,3,4,5,6,7,8" />
+                </BulkPool>
+                <BulkPool name="USERPORT(ChannelStatus)" readProxy="com.zte.ums.an.uni.dsl.conf.cdf.collect.parser.bufferreader.DoubleLineBufferedReader">
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1,2,3,4,5,6" />
+                </BulkPool>
+                <!-- String -->
+                <BulkPool name="USERPORT(SpectrumConfPrf)">
+                    <AppendInfo indexMerge="4" indexAppend="0" valueAppend="1" />
+                </BulkPool>
+                <BulkPool name="USERPORT(DsDataRateConfPrf)">
+                    <AppendInfo indexMerge="2" indexAppend="0" valueAppend="1" />
+                </BulkPool>
+                <BulkPool name="USERPORT(UsDataRateConfPrf)">
+                    <AppendInfo indexMerge="3" indexAppend="0" valueAppend="1" />
+                </BulkPool>
+                <BulkPool name="USERPORT(DelayInpConfPrf)">
+                    <AppendInfo indexMerge="7" indexAppend="0" valueAppend="1,2,3,4,5,6" />
+                </BulkPool>
+                <BulkPool name="USERPORT(BondPortStatus)">
+                    <AppendInfo indexMerge="21" indexAppend="0" valueAppend="1,2" />
+                </BulkPool>
+                <BulkPool name="USERPORT(PORTSTATUS)">
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1" />
+                </BulkPool>
+                <BulkPool name="USERPORT(Board)" matcher="com.zte.ums.an.uni.dsl.conf.cdf.collect.matcher.BoardTypeMatcher" >
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1"/>
+                </BulkPool>
+            </append>
+            <filter>
+                <FilterInfo indexFilter="47" valueFilter="1" /> <!-- 1在线  2离线 -->
+            </filter>
+        </Group>
+        <Group name="USERPORT_RABBIT">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+                <Field>getMoc</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="USERPORTRABBIT(ALL)" />
+                <BulkPool name="USERPORTRABBIT(LINE)" />
+            </merge>
+            <append>
+                <BulkPool name="USERPORTRABBIT(Board)" matcher="com.zte.ums.an.uni.dsl.conf.cdf.collect.matcher.BoardTypeMatcher" >
+                    <AppendInfo indexMerge="0" indexAppend="0" valueAppend="1" />
+                </BulkPool>
+            </append>
+        </Group>
+    
+    
+        <Group name="UPLINKPORT">
+            <fixedArea>
+                <Field>getName</Field>
+                <Field>getIpAddress</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="UPLINKPORT" />
+            </merge>
+        </Group>
+        <Group name="UPLINKLAG">
+            <fixedArea>
+                <Field>getName</Field>
+                <Field>getIpAddress</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="UPLINKLAG" />
+            </merge>
+        </Group>
+        <Group name="UPLINKPORTVLAN">
+            <fixedArea>
+                <Field>getName</Field>
+                <Field>getIpAddress</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="UPLINKPORTVLAN" />
+            </merge>
+            <filter>
+                <FilterInfo indexFilter="0" valueFilter="1/1/7/.*" />
+            </filter>
+        </Group>
+        
+        <Group name="UPLINKLAGVLAN">
+            <fixedArea>
+                <Field>getName</Field>
+                <Field>getIpAddress</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="UPLINKLAGVLAN" />
+            </merge>
+        </Group>
+    </BulkPool_Validation>
+</Server>
+

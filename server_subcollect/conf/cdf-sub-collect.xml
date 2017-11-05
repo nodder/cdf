@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <!-- Fill in sub-collect server parameters here. -->
+    <Sub_Server>
+        <Alias>Sub-Server1</Alias>
+        <!-- Server name to help for remembering, free to configure. -->
+        <Server_IP></Server_IP>
+        <!-- Real IP or host name of sub-collect server.-->
+        <Scheduled_Period>15</Scheduled_Period>
+        <!-- NOT SUGGEST to change. Means the period to requst task from dispatch server if needed. unit: seconds. -->
+        <Heart_Beat>5</Heart_Beat>
+        <!-- MUST NOT change. Heart beat period to dispatch server, also related to report generating. unit: seconds -->
+        <NE_Type_Filter>ZXDSL9836</NE_Type_Filter>
+        <isCheckXml>true</isCheckXml>
+        <!-- MUST NOT change -->
+        <Reduce_IO>true</Reduce_IO>
+        <!-- NOT SUGGEST to change. If true, memory operation will be increase.-->
+        <Delete_PreFiles>true</Delete_PreFiles>
+        <!-- MUST NOT change. Only for debug purpose -->
+    </Sub_Server>
+    <!-- Fill in database parameters here. This database is used for collecting performance data. MUST execute conf/install-db.bat(sh) first. -->
+    <Database>
+        <DbType>oracle</DbType>
+        <!-- Opions: oracle, mssql -->
+        <Port>1521</Port>
+        <!-- Mostly, 1521 for oracle, 1433 for mssql. -->
+        <Server_Ip></Server_Ip>
+        <Super_User></Super_User>
+        <Super_User_Password></Super_User_Password>
+        <DbName>uep</DbName>
+        <!-- DO NOT change. Fixed oracle SID, no use for mssql.-->
+        <Max_Connect>10</Max_Connect>
+        <!-- NOT SUGGEST to change. -->
+        <DbPath />
+    </Database>
+    <!-- Fill in remote dispatch server parameters here. -->
+    <Remote_Dispatch_Server>
+        <Server_IP></Server_IP>
+        <!-- MUST be consistent with Server_IP in cdf-dispatch.xml -->
+        <Server_Port>12346</Server_Port>
+        <!-- MUST be consistent with Server_Port in cdf-dispatch.xml -->
+        <Remote_Object_Name>DispatchService</Remote_Object_Name>
+        <!-- MUST be consistent with Remote_Object_Name in cdf-dispatch.xml -->
+    </Remote_Dispatch_Server>
+    <!-- Fill in FTP parameters here. The FTP must be local and must have writing permission.  -->
+    <FTP>
+        <Server_IP></Server_IP>
+        <!-- Real IP of local host, MUST NOT be 127.0.0.1 -->
+        <User></User>
+        <Password></Password>
+        <Main_Dir></Main_Dir>
+        <!-- FTP Root Directory -->
+        <Transfer_Type>FTP</Transfer_Type>
+        <!-- Opions: FTP, SFTP. Default value: FTP-->
+    </FTP>
+    <!-- NOT SUGGEST to change -->
+    <Thread>
+        <Thread_Num>300</Thread_Num>
+        <!-- Very important to perfomance -->
+        <Pool_Reinitial_Time>3600</Pool_Reinitial_Time>
+        <!-- unit: Seconds -->
+    </Thread>
+    <!-- NOT SUGGEST to change -->
+    <SNMP>
+        <Timeout>5</Timeout>
+        <!-- unit: Seconds -->
+        <Retries>2</Retries>
+    </SNMP>
+    <!-- NOT SUGGEST to change -->
+    <Fast_SNMP>
+        <Timeout>2</Timeout>
+        <!-- unit: Seconds -->
+        <Retries>0</Retries>
+    </Fast_SNMP>
+    <!-- MUST NOT change -->
+    <BulkPool_Validation>
+        <Time_Tolerance>300</Time_Tolerance>
+    </BulkPool_Validation>
+</Server>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <!-- Fill in remote dispatch server parameters here. -->
+    <Main_Service>
+        <Server_IP></Server_IP>
+        <!-- Real IP where dispatch server is running. -->
+        <Server_Port>12346</Server_Port>
+        <Remote_Object_Name>DispatchService</Remote_Object_Name>
+        <!-- NOT SUGGEST to change. -->
+    </Main_Service>
+    <!-- Fill in the EMS Server database parameters here.-->
+    <NetNumen_DB>
+        <Type>oracle</Type>
+        <!-- Opions: oracle    mssql -->
+        <IP>127.0.0.1</IP>
+        <Port>1521</Port>
+        <!-- Mostly 1521 for oracle,   1433 for mssql. -->
+        <DbName>uep</DbName>
+        <!-- DO NOT change. Fixed oracle SID, no use for mssql.-->
+    </NetNumen_DB>
+    <!-- NOT SUGGEST to change -->
+    <Dispatch>
+        <Period>900</Period>
+        <!-- The period to get NE list from the EMS. Unit: second-->
+        <DispatchNum_Per_Round>500</DispatchNum_Per_Round>
+        <!-- NE number to dispatch when a sub-collect server quests task.-->
+        <SubSvrConnMaintenance_Period>120</SubSvrConnMaintenance_Period>
+        <!-- The period to check if exists timeout sub-collect servers. Unit: second -->
+        <SubSvr_Timeout>100</SubSvr_Timeout>
+        <!-- The threshold of sub-collect server timeout. Unit: second -->
+    </Dispatch>
+</Server>
+

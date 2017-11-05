@@ -1,0 +1,141 @@
+
+Collection_Time,COLLECTION TIME,COLLECTION TIME
+Device_IP,DEVICE ID,DEVICE ID
+Device_Type,DEVICE NAME,DEVICE NAME
+Measuring_Object,MEASURING OBJECT,MEASURING OBJECT
+
+#Board,,
+cpuLoad,CPU Usage(%),CPU Usage(%)
+memUsage,Memory Usage(%),Memory Usage(%)
+
+#ADSL Port,,
+adslAtucPerfLofs,ATU-C LOFs,ATU-C LOFs
+adslAturPerfLofs,ATU-R LOFs,ATU-R LOFs
+adslAtucPerfLoss,ATU-C LOSs,ATU-C LOSs
+adslAturPerfLoss,ATU-R LOSs,ATU-R LOSs
+adslAtucPerfLols,ATU-C LOLs,ATU-C LOLs
+adslAtucPerfLprs,ATU-C LPRs,ATU-C LPRs
+adslAturPerfLprs,ATU-R LPRs,ATU-R LPRs
+adslAtucPerfInits,ATU-C Line Initialization Attempts,ATU-C Line Initialization Attempts
+adslAtucChanReceivedBlks,ATU-C Rx Encoded Blocks,ATU-C Rx Encoded Blocks
+adslAturChanReceivedBlks,ATU-R Rx Encoded Blocks,ATU-R Rx Encoded Blocks
+adslAtucChanTransmittedBlks,ATU-C Tx Encoded Blocks,ATU-C Tx Encoded Blocks
+adslAturChanTransmittedBlks,ATU-R Rx Encoded Blocks,ATU-R Rx Encoded Blocks
+adslAtucChanCorrectedBlks,ATU-C Rx Blocks with Correctable Errors,ATU-C Rx Blocks with Correctable Errors
+adslAturChanCorrectedBlks,ATU-R Rx Corrected Blocks,ATU-R Rx Corrected Blocks
+adslAtucChanUncorrectBlks,ATU-C Rx Uncorrected Blocks,ATU-C Rx Uncorrected Blocks
+adslAturChanUncorrectBlks,ATU-R Rx Uncorrected Blocks,ATU-R Rx Uncorrected Blocks
+adslAtucPerfESs,ATU-C Ess,ATU-C Ess
+adslAturPerfESs,ATU-R Ess,ATU-R Ess
+
+adslAturCurrSnrMgn,ATU-R SNR Margin(0.1dB),ATU-R SNR Margin(0.1dB)
+adslAtucCurrSnrMgn,ATU-C SNR Margin(0.1dB),ATU-C SNR Margin(0.1dB)
+adslAturCurrAtn,ATU-R Attenuation(0.1dB),ATU-R Attenuation(0.1dB)
+adslAtucCurrAtn,ATU-C Attenuation(0.1dB),ATU-C Attenuation(0.1dB)
+adslAturCurrAttainableRate,ATU-R Attainable Rate(kbps),ATU-R Attainable Rate(kbps)
+adslAtucCurrAttainableRate,ATU-C Attainable Rate(kbps),ATU-C Attainable Rate(kbps)
+adslAturCurrOutputPwr,ATU-R Output Power(0.1dBm),ATU-R Output Power(0.1dBm)
+adslAtucCurrOutputPwr,ATU-C Output Power(0.1dBm),ATU-C Output Power(0.1dBm)
+
+adslAtucPerfStatFastR,ATU-C Fast Retrain Times,ATU-C Fast Retrain Times
+adslAtucPerfStatFailedFastR,ATU-C Failed Fast Retrains,ATU-C Failed Fast Retrains
+adslAtucPerfStatSesL,ATU-C SESs,ATU-C SESs
+adslAturPerfStatSesL,ATU-R SESs,ATU-R SESs
+adslAtucPerfStatUasL,ATU-C UASs,ATU-C UASs
+adslAturPerfStatUasL,ATU-R UASs,ATU-R UASs
+adslAturChanCurrTxRate,Upstream Rate(kbps),Upstream Rate(kbps)
+adslAtucChanCurrTxRate,Downstream Rate(kbps),Downstream Rate(kbps)
+
+
+#VDSL Port,,
+dsl2LnCh1DsDataRateConfPrf,DownStream Data Rate Profile,DownStream Data Rate Profile
+dsl2LnCh1UsDataRateConfPrf,Upstream Data Rate Profile,Upstream Data Rate Profile
+zxAnXdsl2LnSpectrumConfPrf,Line Spectrum Profile,Line Spectrum Profile
+zxAnXdsl2LnStatusAttainRateDs,Attainable Bitrate Downstream(kbps),Attainable Bitrate Downstream(kbps)
+zxAnXdsl2LnStatusAttainRateUs,Attainable Bitrate Upstream(kbps),Attainable Bitrate Upstream(kbps)
+zxAnXdsl2LnStatusActAtpDs,Output Power Downstream(dBm),Output Power Downstream(dBm)
+zxAnXdsl2LnStatusActAtpUs,Output Power Upstream(dBm),Output Power Upstream(dBm)
+
+
+#SHDSL Port,,
+dslStatusMaxAttainableLineRate,Max Attainable Line Rate,Max Attainable Line Rate
+hdsl2ShdslStatusActualLineRate,Actual Line Rate,Actual Line Rate
+
+hdsl2ShdslEndpointCurrAtn,Endpoint Loop Attenuation(0.1dB),Endpoint Loop Attenuation(0.1dB)
+hdsl2ShdslEndpointCurrSnrMgn,Endpoint SNR Margin(0.1dB),Endpoint SNR Margin(0.1dB)
+hdsl2ShdslEndpointES,Endpoint Ess,Endpoint Ess
+hdsl2ShdslEndpointSES,Endpoint SESs,Endpoint SESs
+hdsl2ShdslEndpointCRCanomalies,CRC Endpoint Anomalies,CRC Endpoint Anomalies
+hdsl2ShdslEndpointLOSWS,Endpoint LOSWSs,Endpoint LOSWSs
+hdsl2ShdslEndpointUAS,Endpoint UASs,Endpoint UASs
+
+zxAnEtherIfInOctetRate,Received Octets Rate(B/s),Received Octets Rate(B/s)
+zxAnEtherIfOutOctetRate,Transmitted Octets Rate(B/s),Transmitted Octets Rate(B/s)
+
+
+#Ethernet Port,,
+etherStatsDropEvents,Dropping Packet Events,Dropping Packet Events,Ethernet Port
+etherStatsPkts,Rx Packets,Rx Packets
+etherStatsCRCAlignErrors,Rx CRC Errors,Rx CRC Errors
+etherStatsUndersizePkts,Rx Undersize Packets,Rx Undersize Packets
+etherStatsOversizePkts,Rx Oversize Packets,Rx Oversize Packets
+etherStatsFragments,Rx Fragments,Rx Fragments
+etherStatsJabbers,Rx > 1518 Octets and CRC Errors,Rx > 1518 Octets and CRC Errors
+etherStatsPkts64Octets,Rx 64 Octets Packets,Rx 64 Octets Packets
+etherStatsPkts65to127Octets,Rx 65-127 Octets Packets,Rx 65-127 Octets Packets
+etherStatsPkts128to255Octets,Rx 128-255 Octets Packets,Rx 128-255 Octets Packets
+etherStatsPkts256to512Octets,Rx 256-511 Octets Packets,Rx 256-511 Octets Packets
+etherStatsPkts512to1023Octets,Rx 512-1023 Octets Packets,Rx 512-1023 Octets Packets
+etherStatsPkts1024to1518Octets,Rx 1024-1518 Octets Packets,Rx 1024-1518 Octets Packets
+etherStatsCollisions,Collision Frames,Collision Frames
+
+ifInUcastPkts,Rx Unicast Packets,Rx Unicast Packets
+ifOutUcastPkts,Tx Unicast Packets,Tx Unicast Packets
+etherStatsMulticastPkts,Rx Multicast Packets/Tx Multicast Packets,Rx Multicast Packets/Tx Multicast Packets
+etherStatsBroadcastPkts,Rx Broadcast Packets/Tx Broadcast Packets,Rx Broadcast Packets/Tx Broadcast Packets
+ifInNUcastPkts,Rx NUnicast Packets,Rx NUnicast Packets
+ifOutNUcastPkts,Tx NUnicast Packets,Tx NUnicast Packets
+ifInDiscards,Rx Discarded Packets,Rx Discarded Packets
+ifOutDiscards,Tx Discarded Packets,Tx Discarded Packets
+
+#zxAnEtherIfInOctetRate,Rx Bit Rate(kbps),Rx Bit Rate(kbps)
+#zxAnEtherIfOutOctetRate,Tx Bit Rate(kbps),Tx Bit Rate(kbps)
+ifInOctets,Rx Octets,Rx Octets
+ifOutOctets,Tx Octets,Tx Octets
+etherStatsOctets,Rx Octets During Collection Period/Tx Octets During Collection Period,Rx Octets During Collection Period/Tx Octets During Collection Period
+zxAnEtherIfInBandwidthUtil,Rx Bandwidth Occupancy(%),Rx Bandwidth Occupancy(%)
+zxAnEtherIfOutBandwidthUtil,Tx Bandwidth Occupancy(%),Tx Bandwidth Occupancy(%)
+
+
+#IGMP USER,,
+zxAnIgmpCounterRxV1Report,Rx V1 Report Packets,Rx V1 Report Packets
+zxAnIgmpCounterDropRxV1Report,Rx V1 Errored Report Packets,Rx V1 Errored Report Packets
+zxAnIgmpCounterRxV2Report,Rx V2 Report Packets,Rx V2 Report Packets
+zxAnIgmpCounterDropRxV2Report,Rx V2 Errored Report Packets,Rx V2 Errored Report Packets
+zxAnIgmpCounterRxV3Report,Rx V3 Report Packets,Rx V3 Report Packets
+zxAnIgmpCounterDropRxV3Report,Rx V3 Errored Report Packets,Rx V3 Errored Report Packets
+zxAnIgmpCounterRxLeave,Rx V2 Leave Packets,Rx V2 Leave Packets
+zxAnIgmpCounterTxCommQuery,Tx General Query Packets,Tx General Query Packets
+zxAnIgmpCounterTxSpecialQuery,Tx Specific Query Packets,Tx Specific Query Packets
+zxAnIgmpCounterDropRxUnknown,Rx Invalid Packets,Rx Invalid Packets
+
+
+#IGMP Traffic,,
+
+
+#IGMP VLAN,,
+zxAnIgmpCounterRxCommQuery,Rx General Query Packets,Rx General Query Packets
+zxAnIgmpCounterTxCommQuery,Tx General Query Packets,Tx General Query Packets
+zxAnIgmpCounterRxSpecialQuery,Rx Specific Query Packets,Rx Specific Query Packets
+#zxAnIgmpCounterTxSpecialQuery,Tx Specific Query Packets,Tx Specific Query Packets
+zxAnIgmpCounterRxV2Report,Rx V2 Joined Packets,Rx V2 Joined Packets
+zxAnIgmpCounterTxV2Report,Tx V2 Joined Packets,Tx V2 Joined Packets
+zxAnIgmpCounterDropRxV2Report,Rx Error V2 Report Packets,Rx Error V2 Report Packets
+zxAnIgmpCounterRxV3Report,Rx V3 Joined Report Packets,Rx V3 Joined Report Packets
+zxAnIgmpCounterTxV3Report,Tx V3 Joined Report Packets,Tx V3 Joined Report Packets
+zxAnIgmpCounterDropRxV3Report,Rx Errored V3 Joined Report Packets,Rx Errored V3 Joined Report Packets
+zxAnIgmpCounterRxLeave,Rx Leave Packets,Rx Leave Packets
+zxAnIgmpCounterTxLeave,Tx Leave Packets,Tx Leave Packets
+zxAnMvlanCurrActGroups,All Online Programs,All Online Programs
+zxAnMvlanActHosts,All Online Users,All Online Users
+#zxAnIgmpCounterDropRxUnknown,Rx Invalid Packets,Rx Invalid Packets

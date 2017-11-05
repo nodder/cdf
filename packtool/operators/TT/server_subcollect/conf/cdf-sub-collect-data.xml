@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="GBK"?>
+<Server>
+    <!-- MUST NOT change -->
+    <BulkPool_Validation>
+        <Group name="AN_BOARDTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="BOARD" />
+            </merge>
+        </Group>
+        <Group name="AN_ADSLPORTPERFTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="ADSLPORT" />
+            </merge>
+        </Group>
+        <Group name="AN_VDSLPORTPERFTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="VDSLPORT" />
+            </merge>
+        </Group>
+        <Group name="AN_SHDSLPORTPERFTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="SHDSLPORT" />
+            </merge>
+        </Group>
+        <Group name="AN_ETHPORTPERFTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="ETHPORT" />
+            </merge>
+        </Group>
+        <Group name="AN_IGMPUSERTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="IGMPUSER" />
+            </merge>
+        </Group>
+        <Group name="AN_IGMPTRAFFICTABALE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="IGMPTRAFFIC" />
+            </merge>
+        </Group>
+        <Group name="AN_IGMPVLANTABLE">
+            <fixedArea>
+                <!--不包含两个Time字段-->
+                <Field>getIpAddress</Field>
+                <Field>getName</Field>
+            </fixedArea>
+            <merge>
+                <BulkPool name="IGMPVLAN" />
+            </merge>
+        </Group>
+    </BulkPool_Validation>
+</Server>
+
