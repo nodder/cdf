@@ -26,7 +26,7 @@ Power Supply Time
 	确保CDF和网管数据库联通，网管上创建有SNMP网元设备网元
 	确保SNMP网元设备支持反向供电，否则采集到的相关数据为空
 ### CDF部署和运行
-### Windows环境
+-  Windows环境
 目的：
 1）	周期性通过FTP从多个网元采集CSV性能文件，筛选、解析、存入数据库；
 2）	周期性从数据库读取，翻译、合并为报表。
@@ -42,7 +42,7 @@ Power Supply Time
  
 输入“1”后回车，CDF启动，启动成功后包含Dispatch Server、Sub-collect Server和Report Server三个窗口，如下所示。
  
-### Salaris环境
+- Salaris环境
 目的：
 1）	周期性通过FTP从多个网元采集CSV性能文件，筛选、解析、存入数据库；
 2）	周期性从数据库读取，翻译、合并为报表。
